@@ -1,0 +1,15 @@
+{
+  "name": "react-memoization-hooks",
+  "description": "react-memoization-hooks",
+  "version": "0.0.1",
+  "author": "vitormalencar <vitor.maia.alencar@gmail.com>",
+  "keywords": [
+    "hooks",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

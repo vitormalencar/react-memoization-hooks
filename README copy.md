@@ -6,68 +6,68 @@
 <br>
 <br>
 
-## Getting Started 🏁
+## Primeiros passos 🏁
 
-Clone the repository.
+Clone o repositório.
 
 ```sh
 git clone https://github.com/vitormalencar/
 ```
 
-`cd` into the directory.
+`cd` no diretório.
 
 ```sh
-cd hooks react-memoization-hooks
+cd react-memoization-hooks
 ```
 
-Install the project dependencies:
+Instale as dependências do projeto:
 
 ```sh
-yarn
+yarn install
 
-# or
+# ou
 
 npm install
 ```
 
-Start the development server:
+Inicie o servidor de desenvolvimento:
 
 ```sh
 yarn start
 
-# or
+# ou
 
 npm run start
 ```
 
-Finally Head over to [localhost:3000](http://localhost:3000) in your browser of choice and you are ready do go 🚀.
+Finalmente, vá para [localhost: 3000](http://localhost:3000) no navegador de sua escolha e você está pronto para ir 🚀.
 
-💡 **Pro tip** use the `App.final.js` as you final reference guide this file contains the final project so you can follow along.
+💡 **Dica profissional** use o `App.final.js` como guia de referência final, este arquivo contém o projeto final para que você possa acompanhar.
 
-## **Optional** Running the server locally 📶
+## **Opcional** Executando o servidor localmente 📶
 
-If you want to run the server offline:
+Se você deseja executar o servidor offline:
 
-```
+```sh
 yarn run start:server
 
-# or
+# ou
 
 npm run start:server
 ```
 
-This should open a local server on the port `3001` you can test by accessing
+Isso deve abrir um servidor local na porta `3001`, você pode testar acessando
 [localhost:3001/repositories](http://localhost:3001/repositories)
-if you want to change the data you can edit the local [`db.json`](./db.json)
+se você quiser alterar os dados, pode editar o [`db.json`](./db.json) local.
 
-than instead of pointing to the github api you should use localhost :
+Em vez de apontar para a API do github, você deve usar localhost:
 
 ```diff
 # Search
 -- const SEARCH = "https://api.github.com/search/repositories";
 ++ const SEARCH = "http://localhost:3001/repositories";
 
-# And when fetching  the data use the
+# E ao buscar os dados, use
 
 React.useEffect(() => {
     getRepositories(query)
@@ -78,22 +78,22 @@ React.useEffect(() => {
 
 ```
 
-## Toolbelt 🧰
+## Ferramentas 🧰
 
-- [x] React as a UI language
-- [x] Prettier as code formatter
-- [x] JSON Server as local server
-- [x] TailwindCss UI as our design toolkit
+- [x] React como uma linguagem de IU
+- [x] Prettier como formatador de código
+- [x] JSON server como servidor local
+- [x] TailwindCss UI como nosso kit de ferramentas de design
 
-## Project Structure 🏗
+## Estrutura do Projeto 🏗
 
-The project follows a regular [create-react-app](https://github.com/facebook/create-react-app) skeleton with very few modifications.
+O projeto segue um esqueleto regular [create-react-app](https://github.com/facebook/create-react-app) com muito poucas modificações.
 
-Under the src folder, we have two main directories:
+Na pasta src, temos dois diretórios principais:
 
-- `App.js` : the place where the main logic for this workshop
-- `Components/` : Components reused across pages
-- `Services/` : Which contains, as the name suggests, utility Servicefuncitons,
+- `App.js`: o lugar onde está a lógica principal para este workshop
+- `Components /`: componentes reutilizados nas páginas
+- `Services /`: que contém, como o nome sugere, funções de serviço de utilidade,
 
 ## Expert
 
@@ -101,6 +101,7 @@ Under the src folder, we have two main directories:
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                          [Vitor Alencar](https://github.com/vitormalencar)                                                          |
 
-## License
 
-Designed with ♥ by [vitormalencar](https://vitormalencar.com). Licensed under the [MIT License](license).
+## Licença
+
+Projetado com ♥ por [vitormalencar](https://vitormalencar.com). Licenciado sob a [Licença MIT](licença).

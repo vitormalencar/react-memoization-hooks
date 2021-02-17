@@ -1,5 +1,6 @@
 ur code, you agree to license your contribution under the [MIT license](../license).
- Use `rem` unit instead of `px`
+Use `rem` unit instead of `px`
+
 - Use lowercase and shorthand hex values, i.e. `#fff`
 - Use one discrete selector per line in multi-selector rulesets
 - Include a single space after colon and after each comma
@@ -29,7 +30,7 @@ ur code, you agree to license your contribution under the [MIT license](../licen
 			color: #000
 ```
 
-*NOTE: The best way to learn about that is to just install it and give it a try on your code. This project uses an `.editorconfig` file, which most editors support, to enforce these coding standards.*
+_NOTE: The best way to learn about that is to just install it and give it a try on your code. This project uses an `.editorconfig` file, which most editors support, to enforce these coding standards._
 
 ## Test
 

@@ -136,6 +136,3 @@ sketch
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
-# End of https://www.toptal.com/developers/gitignore/api/node,react,vscode
-n
